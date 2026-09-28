@@ -1,0 +1,1 @@
+package com.bts.viewplustest.link; import java.util.*; import org.springframework.data.jpa.repository.JpaRepository; public interface VideoLinkRepository extends JpaRepository<VideoLink,Long>{List<VideoLink> findAllByOrderByIdDesc();}
